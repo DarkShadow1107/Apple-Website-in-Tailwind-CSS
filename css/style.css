@@ -1,0 +1,76 @@
+* {
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.bg-grey-apple {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.text-blue-apple {
+	color: #0070c9;
+}
+.apple-icon {
+	background-size: 16px 44px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 16px;
+}
+.apple-icon.apple {
+	background-image: url("https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/apple/image_large.svg");
+}
+.apple-icon.search {
+	background-image: url("https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/search/image_large.svg");
+}
+.apple-icon.bag {
+	background-image: url("https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/bag/image_large.svg");
+}
+.apple-icon:hover {
+	opacity: 0.6;
+}
+.apple-icon span {
+	position: absolute;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+	clip-path: inset(0px 0px 99.9% 99.9%);
+	overflow: hidden;
+	height: 1px;
+	width: 1px;
+	padding: 0;
+	border: 0;
+	top: 50%;
+}
+
+.bg-iphone-xr {
+	width: 622px;
+	height: 352px;
+	background-image: url("https://www.apple.com/v/home/eb/images/heroes/spring-iphone-xr/iphone_xr__b0z59ak0bqdy_large_2x.jpg");
+	background-size: 622px 352px;
+	background-repeat: no-repeat;
+}
+.bg-iphone-xs {
+	width: 774px;
+	height: 313px;
+	background-size: 774px 313px;
+	background-repeat: no-repeat;
+	background-image: url("https://www.apple.com/v/home/eb/images/heroes/spring-iphone-xs/iphone_xs__cm637qa5dno2_large_2x.jpg");
+}
+.bg-airpods {
+	width: 2560px;
+	height: 624px;
+	background-size: 2560px 624px;
+	background-repeat: no-repeat;
+	background-image: url("https://www.apple.com/v/home/eb/images/heroes/airpods/airpods_magic__geiladfa3kqe_large_2x.jpg");
+}
+.bg-ipad-air {
+	width: 476px;
+	height: 346px;
+	background-size: 476px 346px;
+	background-repeat: no-repeat;
+	background-image: url("https://www.apple.com/v/home/eb/images/promos/ipad-air/ipad_air_tile__f9ozv3kke9e2_large_2x.jpg");
+}
+.bg-ipad-mini {
+	width: 769px;
+	height: 366px;
+	background-size: 769px 366px;
+	background-repeat: no-repeat;
+	background-image: url("https://www.apple.com/v/home/eb/images/promos/ipad-mini/ipad_mini_tile__c0jmap32olw2_large_2x.jpg");
+}
